@@ -11,6 +11,7 @@
 ### Project Assignment 
 	- Deadline : 25 May
 	- Presentation : end of July (TBD)
+	- Topics: https://docs.google.com/spreadsheets/d/1I7JZeBqcyfxtCRRmTb3kQ3Hc1rSQb1hgXW3ltXuqhd8/edit?usp=sharing
   
 ### Evaluation
   - Task (30%) 
