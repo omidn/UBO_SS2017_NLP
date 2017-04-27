@@ -18,6 +18,9 @@ Output2: John_NOUN went_VERB to the United_States_NER for his_NOUN school_NOUN
 ```
 
 **note:**
-- 1: you can use any language/annotation style
+- 1: You can use any language/annotation style
 - 2: PTB POS tags: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
-
+- 3: Examples of NER annotation
+  - 3 class:	Location, Person, Organization
+  - 4 class:	Location, Person, Organization, Misc
+  - 7 class:	Location, Person, Organization, Money, Percent, Date, Time
