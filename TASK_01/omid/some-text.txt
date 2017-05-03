@@ -1,33 +1,5 @@
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.chunk import ne_chunk
-import sys  
-reload(sys)  
-sys.setdefaultencoding('utf8')
+The changing conditions offer an opening to shipping companies. The Arctic is potentially a faster, more direct route between Asia and ports in Europe and eastern North America.
 
-FILE_PATH = 'some-text.txt'
-OUTPUT1_PATH = 'output1.txt'
-OUTPUT2_PATH = 'output2.txt'
-    
-def format_output(entry):
-    if type(entry) is nltk.tree.Tree:
-        return '_'.join([x[0] for x in list(entry)]) + '_NER' 
-    elif entry[1] in ['VERB', 'NOUN']:
-        return entry[0] + '_' + entry[1].upper()
-    return entry[0]
+Currently there is relatively little cargo shipped through the region. Although shipping will increase over the next decade, especially as Russia develops oil and gas fields in Siberia, total Arctic cargo tonnage is expected to remain only a small fraction of the amount carried along southern routes through the Suez and Panama canals.
 
-with open(FILE_PATH, 'r') as file, open(OUTPUT1_PATH, 'w') as file_output1, open(OUTPUT2_PATH, 'w') as file_output2:
-
-    for line in file:
-        tokens = word_tokenize(line)
-    
-        without_ner =  [tag for tag in nltk.pos_tag(tokens, tagset='universal')]
-        ner =  ne_chunk(without_ner, binary=False)
-    
-        output1 =  ' '.join([format_output(chunk) for chunk in without_ner])
-        output2 = ' '.join([format_output(chunk) for chunk in ner])
-    
-        file_output1.write(output1)
-        file_output2.write(output2)
-
-    print 'Operation completed. Please check \'{}\' and \'{}\' files.'.format(OUTPUT1_PATH,OUTPUT2_PATH)
+But with “middle of the road” warming — higher than the 2015 Paris accord target but lower than the most extreme climate change forecasts — more Arctic shipping routes could open, both for ordinary ships and those that are built to move through thicker ice. Even direct over-the-pole routes would potentially be navigable, at least during some part of the summer-fall shipping season.
