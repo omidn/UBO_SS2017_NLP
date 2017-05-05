@@ -1,7 +1,5 @@
 import nltk
 
-import csv
-
 from nltk.tag import pos_tag, map_tag
 
 file =  open("abc.txt","r")
