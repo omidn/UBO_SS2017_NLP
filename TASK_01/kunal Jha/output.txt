@@ -1,0 +1,127 @@
+
+ Postags 
+[('Berlin', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('capital', 'NN'), ('of', 'IN'), ('Germany', 'NNP'), ('and', 'CC'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('16', 'CD'), ('states', 'NNS'), ('of', 'IN'), ('Germany', 'NNP'), ('.', '.'), ('With', 'IN'), ('a', 'DT'), ('population', 'NN'), ('of', 'IN'), ('3.5', 'CD'), ('million', 'CD'), ('people', 'NNS'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('the', 'DT'), ('second', 'JJ'), ('most', 'RBS'), ('populous', 'JJ'), ('city', 'NN'), ('proper', 'NN'), ('and', 'CC'), ('the', 'DT'), ('seventh', 'JJ'), ('most', 'RBS'), ('populous', 'JJ'), ('urban', 'JJ'), ('area', 'NN'), ('in', 'IN'), ('the', 'DT'), ('European', 'NNP'), ('Union', 'NNP'), ('.', '.'), ('Located', 'VBN'), ('in', 'IN'), ('northeastern', 'JJ'), ('Germany', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('banks', 'NNS'), ('of', 'IN'), ('Rivers', 'NNP'), ('Spree', 'NNP'), ('and', 'CC'), ('Havel', 'NNP'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('the', 'DT'), ('centre', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Berlin-Brandenburg', 'NNP'), ('Metropolitan', 'NNP'), ('Region', 'NNP'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('about', 'IN'), ('six', 'CD'), ('million', 'CD'), ('residents', 'NNS'), ('from', 'IN'), ('over', 'IN'), ('180', 'CD'), ('nations', 'NNS'), ('.', '.'), ('Due', 'NNP'), ('to', 'TO'), ('its', 'PRP$'), ('location', 'NN'), ('in', 'IN'), ('the', 'DT'), ('European', 'NNP'), ('Plain', 'NNP'), (',', ','), ('Berlin', 'NNP'), ('is', 'VBZ'), ('influenced', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('temperate', 'JJ'), ('seasonal', 'JJ'), ('climate', 'NN'), ('.', '.'), ('Around', 'IN'), ('one-third', 'NN'), ('of', 'IN'), ('the', 'DT'), ('city', 'NN'), ("'s", 'POS'), ('area', 'NN'), ('is', 'VBZ'), ('composed', 'VBN'), ('of', 'IN'), ('forests', 'NNS'), (',', ','), ('parks', 'NNS'), (',', ','), ('gardens', 'NNS'), (',', ','), ('rivers', 'NNS'), ('and', 'CC'), ('lakes', 'NNS'), ('.', '.')]
+*********************************************************
+Simple Tags 
+[('Berlin', u'NOUN'), ('is', u'VERB'), ('the', u'DET'), ('capital', u'NOUN'), ('of', u'ADP'), ('Germany', u'NOUN'), ('and', u'CONJ'), ('one', u'NUM'), ('of', u'ADP'), ('the', u'DET'), ('16', u'NUM'), ('states', u'NOUN'), ('of', u'ADP'), ('Germany', u'NOUN'), ('.', u'.'), ('With', u'ADP'), ('a', u'DET'), ('population', u'NOUN'), ('of', u'ADP'), ('3.5', u'NUM'), ('million', u'NUM'), ('people', u'NOUN'), (',', u'.'), ('it', u'PRON'), ('is', u'VERB'), ('the', u'DET'), ('second', u'ADJ'), ('most', u'ADV'), ('populous', u'ADJ'), ('city', u'NOUN'), ('proper', u'NOUN'), ('and', u'CONJ'), ('the', u'DET'), ('seventh', u'ADJ'), ('most', u'ADV'), ('populous', u'ADJ'), ('urban', u'ADJ'), ('area', u'NOUN'), ('in', u'ADP'), ('the', u'DET'), ('European', u'NOUN'), ('Union', u'NOUN'), ('.', u'.'), ('Located', u'VERB'), ('in', u'ADP'), ('northeastern', u'ADJ'), ('Germany', u'NOUN'), ('on', u'ADP'), ('the', u'DET'), ('banks', u'NOUN'), ('of', u'ADP'), ('Rivers', u'NOUN'), ('Spree', u'NOUN'), ('and', u'CONJ'), ('Havel', u'NOUN'), (',', u'.'), ('it', u'PRON'), ('is', u'VERB'), ('the', u'DET'), ('centre', u'NOUN'), ('of', u'ADP'), ('the', u'DET'), ('Berlin-Brandenburg', u'NOUN'), ('Metropolitan', u'NOUN'), ('Region', u'NOUN'), (',', u'.'), ('which', u'DET'), ('has', u'VERB'), ('about', u'ADP'), ('six', u'NUM'), ('million', u'NUM'), ('residents', u'NOUN'), ('from', u'ADP'), ('over', u'ADP'), ('180', u'NUM'), ('nations', u'NOUN'), ('.', u'.'), ('Due', u'NOUN'), ('to', u'PRT'), ('its', u'PRON'), ('location', u'NOUN'), ('in', u'ADP'), ('the', u'DET'), ('European', u'NOUN'), ('Plain', u'NOUN'), (',', u'.'), ('Berlin', u'NOUN'), ('is', u'VERB'), ('influenced', u'VERB'), ('by', u'ADP'), ('a', u'DET'), ('temperate', u'ADJ'), ('seasonal', u'ADJ'), ('climate', u'NOUN'), ('.', u'.'), ('Around', u'ADP'), ('one-third', u'NOUN'), ('of', u'ADP'), ('the', u'DET'), ('city', u'NOUN'), ("'s", u'PRT'), ('area', u'NOUN'), ('is', u'VERB'), ('composed', u'VERB'), ('of', u'ADP'), ('forests', u'NOUN'), (',', u'.'), ('parks', u'NOUN'), (',', u'.'), ('gardens', u'NOUN'), (',', u'.'), ('rivers', u'NOUN'), ('and', u'CONJ'), ('lakes', u'NOUN'), ('.', u'.')]
+*********************************************************
+Nouns
+['Berlin', 'capital', 'Germany', 'states', 'Germany', 'population', 'people', 'city', 'proper', 'area', 'European', 'Union', 'Germany', 'banks', 'Rivers', 'Spree', 'Havel', 'centre', 'Berlin-Brandenburg', 'Metropolitan', 'Region', 'residents', 'nations', 'Due', 'location', 'European', 'Plain', 'Berlin', 'climate', 'one-third', 'city', 'area', 'forests', 'parks', 'gardens', 'rivers', 'lakes']
+Verbs
+['is', 'is', 'Located', 'is', 'has', 'is', 'influenced', 'is', 'composed']
+*********************************************************
+NER
+(S
+  (GPE Berlin/NNP)
+  is/VBZ
+  the/DT
+  capital/NN
+  of/IN
+  (GPE Germany/NNP)
+  and/CC
+  one/CD
+  of/IN
+  the/DT
+  16/CD
+  states/NNS
+  of/IN
+  (GPE Germany/NNP)
+  ./.
+  With/IN
+  a/DT
+  population/NN
+  of/IN
+  3.5/CD
+  million/CD
+  people/NNS
+  ,/,
+  it/PRP
+  is/VBZ
+  the/DT
+  second/JJ
+  most/RBS
+  populous/JJ
+  city/NN
+  proper/NN
+  and/CC
+  the/DT
+  seventh/JJ
+  most/RBS
+  populous/JJ
+  urban/JJ
+  area/NN
+  in/IN
+  the/DT
+  (ORGANIZATION European/NNP Union/NNP)
+  ./.
+  Located/VBN
+  in/IN
+  northeastern/JJ
+  (GPE Germany/NNP)
+  on/IN
+  the/DT
+  banks/NNS
+  of/IN
+  (ORGANIZATION Rivers/NNP Spree/NNP)
+  and/CC
+  (PERSON Havel/NNP)
+  ,/,
+  it/PRP
+  is/VBZ
+  the/DT
+  centre/NN
+  of/IN
+  the/DT
+  Berlin-Brandenburg/NNP
+  Metropolitan/NNP
+  Region/NNP
+  ,/,
+  which/WDT
+  has/VBZ
+  about/IN
+  six/CD
+  million/CD
+  residents/NNS
+  from/IN
+  over/IN
+  180/CD
+  nations/NNS
+  ./.
+  (PERSON Due/NNP)
+  to/TO
+  its/PRP$
+  location/NN
+  in/IN
+  the/DT
+  (ORGANIZATION European/NNP Plain/NNP)
+  ,/,
+  (PERSON Berlin/NNP)
+  is/VBZ
+  influenced/VBN
+  by/IN
+  a/DT
+  temperate/JJ
+  seasonal/JJ
+  climate/NN
+  ./.
+  Around/IN
+  one-third/NN
+  of/IN
+  the/DT
+  city/NN
+  's/POS
+  area/NN
+  is/VBZ
+  composed/VBN
+  of/IN
+  forests/NNS
+  ,/,
+  parks/NNS
+  ,/,
+  gardens/NNS
+  ,/,
+  rivers/NNS
+  and/CC
+  lakes/NNS
+  ./.)
+*********************************************************
