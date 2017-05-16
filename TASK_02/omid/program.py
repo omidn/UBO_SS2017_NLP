@@ -56,4 +56,6 @@ with open(input_file_name, 'r') as f:
     print 'frequency of word \'{}\' is {}'.format(word, fdist[word])
 
     ## part 3
-    print wordnet.synsets('exhaust')
+    for synset in wordnet.synsets('exhaust'):
+        for lemma in synset.lemmas():
+            print lemma.name()
