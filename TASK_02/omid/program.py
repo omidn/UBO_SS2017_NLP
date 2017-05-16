@@ -1,4 +1,4 @@
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
 import string
 from nltk.probability import FreqDist
@@ -52,6 +52,8 @@ with open(input_file_name, 'r') as f:
     
     fdist.plot(30, cumulative=False)
 
-    ## part 3
     word = 'bugs'
     print 'frequency of word \'{}\' is {}'.format(word, fdist[word])
+
+    ## part 3
+    print wordnet.synsets('exhaust')
